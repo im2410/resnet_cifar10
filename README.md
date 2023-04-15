@@ -13,17 +13,17 @@ Learning rate and optimizers were also changed to observe different scenarios
 We used the Adam, Adadelta and Adagrad optimizers with learning rates 0.1, 0.01 and 0.001
 
 We created our models and trained them to classify im-ages utilizing the CIFAR-10 dataset.    
-Employing our model with 4,935,242 parameters, we were able to reach the best accuracy of 91.29%. Below are the values of the hyperparameters -
-•	Learning rate = 0.1
-•	Weight Decay = 0.0001
-•	Optimizer = Adadelta
-•	Scheduler =
-•	N = 4
-•	B = [3,3,2,3]
-•	C = [64,128,128,256]
-•	F = [3,3,3,3]
-•	K = [1,1,1,1]
-•	P = 4
+Employing our model with 4,935,242 parameters, we were able to reach the best accuracy of 91.29%. Below are the values of the hyperparameters -   
+•	Learning rate = 0.1   
+•	Weight Decay = 0.0001       
+•	Optimizer = Adadelta   
+•	Scheduler = Cosine Annealing    
+•	N = 4   
+•	B = [3,3,2,3]   
+•	C = [64,128,128,256]   
+•	F = [3,3,3,3]   
+•	K = [1,1,1,1]   
+•	P = 4   
 
 Final Results: 
 | Optimizer | Learning Rate	| Test Accuracy |
